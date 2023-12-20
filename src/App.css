@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.8px;
+    line-height: 1.8rem;
+}
+body{
+    background-color: rgba(173, 216, 230, 0.03);
+}
+header h3 i{
+    font-size: 3.5rem;
+}
+.header-container{
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color:  rgb(250, 252, 253);
+}
+nav a,.footer-nav a{
+    padding: 0.4rem 1rem;
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.12em;
+    transition: 0.6s;
+}
+nav a.active{
+    color: #258;
+}
+nav a:hover{
+    transform: translateY(-10px);
+}
+.nav-bar-icon{
+    position: fixed;
+    left: -10rem;
+}
+.close-nav{
+    display: none;
+}
+
+/* Home Styles */
+.home-main-container{
+    height: 100vh;
+}
+.home-left-side-text{
+    width: 43%;
+}
+.typing{
+    margin-left: 10rem;
+    width: 30%;
+    padding-right: 0.6rem;
+    text-align: center;
+    border-right: 2px solid black;
+    overflow: hidden;
+    animation: typing 4s infinite steps(6);
+}
+.home-social-icons i , .footer-social-icons i{
+    font-size: 1.8rem;
+    margin: 0rem 0.8rem 0.8rem 0.8rem;
+    color: rgba(0, 0, 255, 0.69);
+}
+.home-social-icons i:hover{
+    transition: 0.5s;
+    transform: translateY(-6px);
+}
+.home-pic-container{
+    width: 28rem;
+}
+.know-more-btn{
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: rgb(62, 150, 62);
+    padding: 0.1rem 0.6rem;
+}
+
+
+
+/* Skills Styles */
+.skills-main-container{
+    margin-top: 10rem;
+}
+.dummy-div{
+    width: 100%;
+}
+.front-end-skills {
+    padding: 1rem;
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.front-end-skills span{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.3rem;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.front-end-skills span img{
+    width: 1.4rem;
+}
+
+
+/* Project Styles */
+.project-main-container{
+    margin-top: 4rem;
+}
+.tech-container{
+    width: 15rem;
+    margin: 1rem auto;
+}
+.tech-select{
+    outline: none;
+    width: 15rem;
+}
+.cards-container{
+    margin: 0rem 0rem;
+}
+.cards-container .card{
+    transition: 0.6s;
+    width: 20rem;
+    height: 25rem;
+    padding: 1.1rem;
+    border: 1px solid black;
+}
+.cards-container .card:hover{
+    scale: 1.1;
+    box-shadow: 0px 0px 3px blue;
+}
+.share-icon i{
+    position: absolute;
+    top: 8.5rem;
+    left: 8rem;
+    background-color: lightblue;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.card-text-container{
+    height: 10rem;
+}
+.tech-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tech-list span{
+    padding: 0.2rem 0.4rem;
+    margin: 0.4rem;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: orange;
+}
+.btn-container button{
+
+    background: transparent;
+    border: none;
+    outline: none;
+}
+/* About Styles */
+.about-main-container{
+    margin-top: 8rem;
+}
+.about-content{
+    width: 80%;
+}
+.thank-you{
+    font-family: Satisfy , 'verdena';
+    color: #258;
+}
+.name{
+    font-family: Satisfy , 'verdena';
+    color: rgb(255, 94, 94);
+}
+.education-main-container{
+    margin: 2rem 0rem;
+}
+.edu-btech,.edu-diploma,.edu-ssc{
+    width: 24rem;
+    height: 31rem;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: 0.6s;
+}
+.edu-btech:hover,.edu-diploma:hover,.edu-ssc:hover{
+    scale: 1.05;
+}
+.edu-diploma img,.edu-btech img,.edu-ssc img{
+    width: 100%;
+}
+.certificate-card{
+    width: 24rem;
+}
+.certificate-card img{
+    border-radius: 4px;
+    border: 2px solid chocolate;
+}
+
+/* Achievement Styles */
+.achivement-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.achieve-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 3rem;
+    width: 13rem;
+    height: 13rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+/* Contact Details Styles */
+.conatct-details-box i{
+font-size: 1.2rem;
+}
+
+
+
+/* Resume Styles */
+.resume-container{
+    margin-top: 7rem;
+}
+.resume-pic{
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px seagreen;
+    margin: 1rem 0rem;
+}
+.resume-btn{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 0.4rem 0.8rem;
+    margin: 1rem;
+}
+
+/* Top Button Styles */
+.top-button{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    padding: 1rem 1.5rem;
+    background-color: seagreen;
+    color: black;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+
+@keyframes typing {
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 10%;
+    }
+    20%{
+        width: 19%;
+    }
+    30%{
+        width: 25%;
+    }
+    40%{
+        width:30%;
+    }
+    50%{
+        width: 36%;
+    }
+    60%{
+        width: 41.2%;
+    }
+    70%{
+        width: 40%;
+    }
+    80%{
+        width: 30%;
+    }
+    90%{
+        width: 19%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+
+/* Footer Styles */
+footer{
+    padding: 1.4rem 0.4rem;
+    background-color: lightblue;
+}
+
+
+@media screen and (min-width:300px) and (max-width:800px){
+    .header-container{
+        background-color: aliceblue;
+    }
+    nav{
+        transition: 0.6s;
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        width: 100vw;
+        background-color: beige;
+        scale: 0;
+    }
+    nav a,.footer-nav a{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .nav-bar-icon{
+        font-size: 2.2rem;
+        top: 1rem;
+        left: 84%;
+    }
+    .close-nav{
+        font-size: 2rem;
+        display: block;
+        position: fixed;
+        right: 2rem;
+        top: 1rem;
+    }
+    .home-main-container{
+        margin-top: 13rem;
+        margin-bottom: 12rem;
+        flex-direction: column;
+    }
+    .home-left-side-text{
+        width: 90%;
+    }
+    .home-pic-container{
+        width: 100%;
+    }
+    .typing{
+        margin: 1rem auto ;
+        width: 100%;
+        padding-right: 0.6rem;
+    }
+    .front-end-skills{
+        width: 98%;
+    }
+    .project-showing{
+        text-align: center;
+    }
+    .about-content{
+        width: 98%;
+    }
+    .edu-btech,.edu-diploma,.edu-ssc{
+        width: 20rem;
+        height: 30rem;
+        margin: 2rem 0rem
+    }
+    .certificates-showing{
+        text-align: center;
+    }
+    .certificate-card{
+        width: 20rem;
+    }
+    .resume-container{
+        width: 100%;
+    }
+    .resume-pic{
+        width: 100%;
+    }
+    .top-button{
+        right: 1rem;
+        bottom: 1rem;
+    }
+}
