@@ -20,7 +20,7 @@ company while having the scope to develop my own skills.</p>
           <button className='know-more-btn'><Link to={'/about'} className='text-decoration-none text-white'>Know More</Link></button>
         </div>
         <div className='home-pic-container'>
-          <img src={HomePic} alt='pic' width='100%'/>
+          <img src={HomePic} alt='pic' width='100%' loading='lazy'/>
         </div>
       </div>
     </div>
