@@ -7,20 +7,31 @@ function Projects() {
 
   const OptionSelect = (e)=>{
     if(e.target.value==='React'){
-      let newdata = Data.filter((each)=>{
-        return e.target.value===each.filterItem
+      let newdata1 = ProjectsData.filter((each)=>{
+        return each.tech.find((eachitem)=>eachitem.tech==='React Js')
       })
-      setData(newdata);
+      setData(newdata1);
+    }
+    else if(e.target.value==='JavaScript'){
+      let newdata2 = ProjectsData.filter((each)=>{
+        return each.tech.find((eachitem)=>eachitem.tech==='JavaScript')
+      })
+      setData(newdata2);
+    }
+    else if(e.target.value==='HtmlCss'){
+      let newdata3 = ProjectsData.filter((each)=>{
+        return each.tech.find((eachitem)=>eachitem.tech==='HTML5')
+      })
+      setData(newdata3);
+    }
+    else if(e.target.value==='Bootstrap5'){
+      let newdata4 = ProjectsData.filter((each)=>{
+        return each.tech.find((eachitem)=>eachitem.tech==='Bootstrap5')
+      })
+      setData(newdata4);
     }
     else if(e.target.value==='All'){
       setData(ProjectsData)
-    }
-    else if(e.target.value==='HtmlCss'){
-      let newdata= Data.filter((each)=>{
-        const {filterItem} =each;
-      return filterItem.endsWith('html');
-      })
-      setData(newdata)
     }
   }
   

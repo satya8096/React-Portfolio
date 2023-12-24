@@ -1,45 +1,13 @@
-import Portfolio from '../Components_Folder/projectimages/Personal Portfolio.png';
-import RetroLabs from '../Components_Folder/projectimages/RetroLabs.png';
-import i5Photography from '../Components_Folder/projectimages/i5 photography.png';
-import AaviProject from '../Components_Folder/projectimages/AAVI PROJECTS IMG.png';
-import FootStore from '../Components_Folder/projectimages/footstore.png';
-import TudoList from '../Components_Folder/projectimages/Tudo list1.png';
-import cocktail from '../Components_Folder/projectimages/cocktail img.png';
-import usersDetails from '../Components_Folder/projectimages/user details api.png';
-import calculator from '../Components_Folder/projectimages/calculator.png';
-import formValidation from '../Components_Folder/projectimages/Form Validation.png';
-import temperature from '../Components_Folder/projectimages/Temperature Change.png';
-import circleClock from '../Components_Folder/projectimages/Circle clock.png';
-import digitalClock from '../Components_Folder/projectimages/digital clock .png';
-import idCard from '../Components_Folder/projectimages/ID card.png';
-import profileCard from '../Components_Folder/projectimages/Profile Card.png';
-import profileCard1 from '../Components_Folder/projectimages/Profile Cards 1.png';
-import loginPage from '../Components_Folder/projectimages/Sign In Sign Up .png';
-import Codemind from '../Components_Folder/projectimages/Codemind.png';
-import EatingChallenge from '../Components_Folder/projectimages/Eating Game.png';
 import Restaurant from '../Components_Folder/projectimages/Restaurant Page.png';
 import MechanicalPage from '../Components_Folder/projectimages/Mechanical Page.png';
 import Portfolio1 from '../Components_Folder/projectimages/Portfolio.png';
-import stopWatch from '../Components_Folder/projectimages/Stop Watch.png';
-import linkedin from '../Components_Folder/projectimages/Linkedin page.png';
-import answerHide from '../Components_Folder/projectimages/Answer Hide.png';
-import atmCard from '../Components_Folder/projectimages/ATM card.png';
-import BorderEffect from '../Components_Folder/projectimages/Border Effect.png';
-import ageCalculator from '../Components_Folder/projectimages/Age Calculator.png';
-import backgroundChange from '../Components_Folder/projectimages/Background Change.png';
-import microsoftIcon from '../Components_Folder/projectimages/microsoft Icon.png';
-import MobileCard from '../Components_Folder/projectimages/Mobile Card.png';
-import musicPlayer from '../Components_Folder/projectimages/Music Player.png';
 import SignUpPage from '../Components_Folder/projectimages/Signin Signup page.png';
-import passwordHide from '../Components_Folder/projectimages/Password Hide.png'
 import RegistrationPage from '../Components_Folder/projectimages/Registration Page.png';
-import Filter from '../Components_Folder/projectViewimages/filter-img1.png';
-
 
 const Data = [
     {
         id:"Portfolio-Project",
-        imgSrc:Portfolio,
+        imgSrc: require('../Components_Folder/projectViewimages/portfolio-img1.png'),
         live:"https://satyanarayanakatta.netlify.app/",
         title:"Portfolio",
         class1:"projectlinks ms-3 me-3",
@@ -61,7 +29,7 @@ const Data = [
     },
     {
         id:"RetroLabs-Project",
-        imgSrc:RetroLabs,
+        imgSrc: require('../Components_Folder/projectViewimages/retro-img1.png'),
         live:"https://retrolabstechnologies.netlify.app/",
         title:"RetroLabs Technologies",
         class1:"projectlinks ms-3 me-3",
@@ -82,7 +50,7 @@ const Data = [
     },
     {
         id:"i5Photography-Project",
-        imgSrc:i5Photography,
+        imgSrc: require('../Components_Folder/projectViewimages/i5-img1.png'),
         live:"https://i5-photography.netlify.app/",
         title:"i5 Photography",
         class1:"projectlinks ms-3 me-3",
@@ -102,7 +70,7 @@ const Data = [
     },
     {
         id:"AaviProject-Project",
-        imgSrc:AaviProject,
+        imgSrc: require('../Components_Folder/projectViewimages/aavi-img1.png'),
         live:"https://aavi-projects.netlify.app/",
         title:"AAVI PROJECTS",
         class1: "projectlinks ms-3 me-3",
@@ -122,7 +90,7 @@ const Data = [
     },
     { 
         id:"FootStore-Project",
-        imgSrc:FootStore,
+        imgSrc: require('../Components_Folder/projectViewimages/foot-img1.png'),
         live:"https://footwear-store-by-satyanarayana.netlify.app/",
         title:"FootWear Store ",
         class1:"mt-5 ms-4 me-4",
@@ -141,7 +109,7 @@ const Data = [
     },
     {
         id:"TudoList-Project",
-        imgSrc:TudoList,
+        imgSrc: require('../Components_Folder/projectViewimages/tudo-img5.png'),
         live:"https://tudo-list-react-by-satyanarayana.netlify.app/",
         title:"Tudo List",
         class1:"projectlinks ms-3 me-3",
@@ -161,7 +129,7 @@ const Data = [
     },
     {
         id:"CockTail-Project",
-        imgSrc:cocktail,
+        imgSrc: require('../Components_Folder/projectViewimages/cock-img1.png'),
         live:"https://cocktail-drinks-by-satyanarayana.netlify.app/",
         title:"Cock Tail Drinks",
         class1:"projectlinks ms-3 me-3",
@@ -181,7 +149,7 @@ const Data = [
      },
     {
         id:"Filter-Items-Project",
-        imgSrc:Filter,
+        imgSrc: require('../Components_Folder/projectViewimages/filter-img1.png'),
         live:"https://filter-items-by-satyanarayana.netlify.app/",
         title:"Filter Items",
         class1:"projectlinks ms-3 me-3",
@@ -201,7 +169,7 @@ const Data = [
      },
     {
         id:"usersDetails-Project",
-        imgSrc:usersDetails,
+        imgSrc: require('../Components_Folder/projectViewimages/user-img1.png'),
         live:"https://user-details-fetch-by-satyanarayana.netlify.app/",
         title:"User Details Fetch",
         class1:"projectlinks ms-3 me-3",
@@ -218,7 +186,7 @@ const Data = [
     },
     {
         id:"Calculator-Project",
-        imgSrc:calculator,
+        imgSrc: require('../Components_Folder/projectViewimages/calculator-img1.png'),
         live:"https://calculator-by-satyanarayana.netlify.app/",
         title:"Calculator",
         class1:"mt-5 ms-4 me-4",
@@ -237,7 +205,7 @@ const Data = [
     },
     {
         id:"FormValidation-Project",
-        imgSrc:formValidation,
+        imgSrc: require('../Components_Folder/projectViewimages/form-img1.png'),
         live:"https://form-validation-by-satyanarayana.netlify.app/",
         title:"Form Validation",
         class1:"mt-5 ms-4 me-4",
@@ -254,7 +222,7 @@ const Data = [
     },
     {
         id:"Temperature-Project",
-        imgSrc:temperature,
+        imgSrc: require('../Components_Folder/projectViewimages/temp-img1.png'),
         live:"https://temperature-change-by-satyanarayana.netlify.app/",
         title:"Temperature Change",
         class1:"mt-5 ms-4 me-4",
@@ -273,7 +241,7 @@ const Data = [
     },
     {
         id:"CircleClock-Project",
-        imgSrc:circleClock,
+        imgSrc: require('../Components_Folder/projectViewimages/circle-img1.png'),
         live:"https://circle-clock-by-satyanarayana.netlify.app/",
         title:"Circle Clock",
         class1:"mt-5 ms-4 me-4",
@@ -289,7 +257,7 @@ const Data = [
     },
     {
         id:"DigitalClock-Project",
-        imgSrc:digitalClock,
+        imgSrc: require('../Components_Folder/projectViewimages/clock-img1.png'),
         live:"https://digital-watch-by-satyanarayana.netlify.app",
         title:"Digital Clock",
         class1:"mt-5 ms-4 me-4",
@@ -307,7 +275,7 @@ const Data = [
     },
     {
         id:"Id-card-Project",
-        imgSrc:idCard,
+        imgSrc: require('../Components_Folder/projectViewimages/id-card-img1.png'),
         live:"https://id-card-by-satyanarayana.netlify.app/",
         title:"ID Card ",
         class1:"mt-5 ms-4 me-4",
@@ -321,7 +289,7 @@ const Data = [
     },
     {
         id:"ProfileCard-Project",
-        imgSrc:profileCard,
+        imgSrc: require('../Components_Folder/projectViewimages/profile-card-img1.png'),
         live:"https://profile-card-by-satyanarayana.netlify.app/",
         title:"Profile Card ",
         class1:"mt-5 ms-4 me-4",
@@ -339,7 +307,7 @@ const Data = [
     },
     {
         id:"ProfileCard-Project1",
-        imgSrc:profileCard1,
+        imgSrc: require('../Components_Folder/projectViewimages/profile1-card-img1.png'),
         live:"https://profile-card1-by-satyanarayana.netlify.app/",
         title:"Profile Card ",
         class1:"mt-5 ms-4 me-4",
@@ -357,7 +325,7 @@ const Data = [
     },
     {
         id:"LoginPage-Project",
-        imgSrc:loginPage,
+        imgSrc:  require('../Components_Folder/projectViewimages/signUp-img1.png'),
         live:"https://login-page-by-satyanarayana.netlify.app/",
         title:"Sign In Page ",
         class1:"mt-5 ms-4 me-4",
@@ -373,7 +341,7 @@ const Data = [
     },
     {
         id:"Codemind-Project",
-        imgSrc:Codemind,
+        imgSrc: require('../Components_Folder/projectViewimages/codemind-img1.png'),
         live:"https://codemindfront.netlify.app/",
         title:"Codemind Page ",
         class1:"mt-5 ms-4 me-4",
@@ -388,7 +356,7 @@ const Data = [
     },
     {
         id:"EactingChallege-Project",
-        imgSrc:EatingChallenge,
+        imgSrc: require('../Components_Folder/projectViewimages/eating-img1.png'),
         live:"https://eating-challenge-game-by-satyanarayan.netlify.app/",
         title:"Eating Challenge",
         class1:"mt-5 ms-4 me-4",
@@ -407,7 +375,7 @@ const Data = [
     },
     {
         id:"Restaurent-Project",
-        imgSrc:Restaurant,
+        imgSrc: Restaurant,
         live:"./commingsoon.html",
         title:"Restaurant Page",
         class1:"mt-5 ms-4 me-4",
@@ -425,7 +393,7 @@ const Data = [
     },
     {
         id:"MechanicalPage-Project",
-        imgSrc:MechanicalPage,
+        imgSrc: MechanicalPage,
         live:"./commingsoon.html",
         title:"Mechanical Page",
         class1:"mt-5 ms-4 me-4",
@@ -444,7 +412,7 @@ const Data = [
     },
     {
         id:"Portfolio1-Project",
-        imgSrc:Portfolio1,
+        imgSrc: Portfolio1,
         live:"./commingsoon.html",
         title:"Portfolio",
         class1:"mt-5 ms-4 me-4",
@@ -463,7 +431,7 @@ const Data = [
     },
     {
         id:"StopWatch-Project",
-        imgSrc:stopWatch,
+        imgSrc: require('../Components_Folder/projectViewimages/stop-img1.png'),
         live:"https://stop-watch-by-satyanarayana.netlify.app/",
         title:"Stop Watch",
         class1:"mt-5 ms-4 me-4",
@@ -480,7 +448,7 @@ const Data = [
     },
     {
         id:"Linkedin-Project",
-        imgSrc:linkedin,
+        imgSrc: require('../Components_Folder/projectViewimages/linkedin-img1.png'),
         live:"https://linkedin-login-by-satyanarayana.netlify.app/",
         title:"Linkedin Page",
         class1:"mt-5 ms-4 me-4",
@@ -495,7 +463,7 @@ const Data = [
     },
     {
         id:"AnswerHide-Project",
-        imgSrc:answerHide,
+        imgSrc: require('../Components_Folder/projectViewimages/answer-img1.png'),
         live:"https://answer-hide-by-satyanarayana.netlify.app/",
         title:"Answer Hide",
         class1:"mt-5 ms-4 me-4",
@@ -513,7 +481,7 @@ const Data = [
     },
     {
         id:"ATM-Card-Project",
-        imgSrc:atmCard,
+        imgSrc: require('../Components_Folder/projectViewimages/atm-card-img1.png'),
         live:"https://atm-card-by-satyanarayana.netlify.app/",
         title: "ATM Card ",
         class1:"mt-5 ms-4 me-4",
@@ -527,7 +495,7 @@ const Data = [
     },
     {
         id:"borderEffect-Project",
-        imgSrc:BorderEffect,
+        imgSrc: require('../Components_Folder/projectViewimages/border-img1.png'),
         live:"https://border-effect-by-satyanarayana.netlify.app/",
         title:"Border Effect",
         class1:"mt-5 ms-4 me-4",
@@ -543,7 +511,7 @@ const Data = [
     },
     {
         id:"AgeCalculator-Project",
-        imgSrc:ageCalculator,
+        imgSrc: require('../Components_Folder/projectViewimages/age-img1.png'),
         live:"https://age-calculator-by-satyanarayana.netlify.app/",
         title:"Age Calculator",
         class1:"mt-5 ms-4 me-4",
@@ -561,7 +529,7 @@ const Data = [
     },
     {
         id:"BackgroundChange-Project",
-        imgSrc:backgroundChange,
+        imgSrc: require('../Components_Folder/projectViewimages/back-img1.png'),
         live:"https://background-change-by-satyanarayana.netlify.app/",
         title:"Background Change",
         class1:"mt-5 ms-4 me-4",
@@ -578,7 +546,7 @@ const Data = [
     },
     {
         id:"MicrosoftIcon-Project",
-        imgSrc:microsoftIcon,
+        imgSrc: require('../Components_Folder/projectViewimages/micro-img1.png'),
         live:"https://microsoft-icon-by-satyanarayana.netlify.app/",
         title:"Microsoft Icon",
         class1:"mt-5 ms-4 me-4",
@@ -592,7 +560,7 @@ const Data = [
     },
     {
         id:"MobileCard-Project",
-        imgSrc:MobileCard,
+        imgSrc: require('../Components_Folder/projectViewimages/mobile-card-img1.png'),
         live:"https://mobile-cards-by-satyanarayana.netlify.app/",
         title:"Mobile Cards",
         class1:"mt-5 ms-4 me-4",
@@ -607,7 +575,7 @@ const Data = [
     },
     {
         id:"MusicPlayer-Project",
-        imgSrc:musicPlayer,
+        imgSrc: require('../Components_Folder/projectViewimages/music-img1.png'),
         live:"https://music-player-by-satyanarayana.netlify.app/",
         title:"Music Player",
         class1:"mt-5 ms-4 me-4",
@@ -623,7 +591,7 @@ const Data = [
     },
     {
         id:"SignUpPage-Project",
-        imgSrc:SignUpPage,
+        imgSrc: SignUpPage,
         live:"./commingsoon.html",
         title:"Sign Up Page",
         class1:"mt-5 ms-4 me-4",
@@ -641,7 +609,7 @@ const Data = [
     },
     {
         id:"PasswordHide-Project",
-        imgSrc:passwordHide,
+        imgSrc: require('../Components_Folder/projectViewimages/password-img1.png'),
         live:"https://password-hide-by-satyanarayana.netlify.app/",
         title:"Password Hide",
         class1:"mt-5 ms-4 me-4",
@@ -658,7 +626,7 @@ const Data = [
     },
     {
         id:"RegistrationPage-Project",
-        imgSrc:RegistrationPage,
+        imgSrc: RegistrationPage,
         live:"./commingsoon.html",
         title:"Registration Page",
         class1:"mt-5 ms-4 me-4",git:"./commingsoon.html",

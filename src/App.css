@@ -122,6 +122,7 @@ nav a:hover{
 .tech-select{
     outline: none;
     width: 15rem;
+    padding: 0.1rem 0.3rem;
 }
 .cards-container{
     margin: 0rem 0rem;
@@ -369,7 +370,9 @@ footer{
     padding: 1.4rem 0.4rem;
     background-color: lightblue;
 }
-
+.copy-right{
+    line-height: 2rem;
+}
 
 @media screen and (min-width:300px) and (max-width:800px){
     .header-container{

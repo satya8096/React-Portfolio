@@ -17,7 +17,7 @@ company while having the scope to develop my own skills.</p>
           <Link to={'#'} target='blank'><i className="fa-brands fa-square-facebook"></i></Link>
           <Link to={'#'} target='blank'><i className="fa-brands fa-square-github"></i></Link>
           </div>
-          <button className='know-more-btn'><Link to={'#'} className='text-decoration-none text-white'>Know More</Link></button>
+          <button className='know-more-btn'><Link to={'/about'} className='text-decoration-none text-white'>Know More</Link></button>
         </div>
         <div className='home-pic-container'>
           <img src={HomePic} alt='pic' width='100%'/>

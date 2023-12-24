@@ -21,7 +21,6 @@ export default function NavigationBar() {
       <i className="fa-solid fa-xmark close-nav" id='nav-close' onClick={NavClose}></i>
         <NavLink to={'/'}>Home</NavLink>
         <NavLink to={'/skills'}>Skills</NavLink>
-        {/* <NavLink to={'/education'}>Education</NavLink> */}
         <NavLink to={'/projects'}>Projects</NavLink>
         <NavLink to={'/about'}>About Me</NavLink>
         <NavLink to={'/contact'}>Contact Me</NavLink>
