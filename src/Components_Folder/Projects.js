@@ -44,20 +44,24 @@ function Projects() {
       <div className='cards-container d-flex align-items-center justify-content-evenly gap-5 flex-wrap mt-5 mb-5'>
       {
         Data.map((each,index)=>{
-          const {imgSrc,live,git,title,tech} = each;
+          const {id,imgSrc,live,git,title,tech} = each;
           return(
             <div className='card text-center' key={index}>
               <img src= {imgSrc} alt={title} />
               <span className='share-icon'><i className="fa-solid fa-share"></i></span>
               <div className='d-flex align-items-center justify-content-evenly flex-column gap-3 mt-4 card-text-container'>
               <h5 className='mt-4'>{title}</h5>
-              <div>
-                {tech}
+              <div className='tech-list'>
+                {
+                  tech.map((each,index)=>{
+                    return <span key={index}>{each.tech}</span>
+                  })
+                }
               </div>
               </div>
               <div className='btn-container d-flex align-items-center justify-content-evenly mt-2'>
               <button><Link to={live} target='blank' className='text-decoration-none'>Live <i className="fa-solid fa-arrow-up-right-from-square"></i></Link></button>
-              <button><Link to={git} target='blank' className='text-decoration-none'>View</Link></button>
+              <button><Link to={`/projects/${id}`} className='text-decoration-none'>View</Link></button>
               <button><Link to={git} target='blank' className='text-decoration-none'>GitHub <i className="fa-solid fa-arrow-up-right-from-square"></i></Link></button>
               </div>
             </div>

@@ -6,7 +6,8 @@ import Skills from './Components_Folder/Skills';
 import Education from './Components_Folder/Education';
 import Projects from './Components_Folder/Projects';
 import About from './Components_Folder/About';
-import Contact from './Components_Folder/Contact'
+import Contact from './Components_Folder/Contact';
+import ProjectView from './Components_Folder/ProjectView';
 import Footer from './Components_Folder/Footer';
 import TopButton from './Components_Folder/TopButton';
 import MyResume from './Components_Folder/MyFinalResume';
@@ -22,6 +23,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/resume' element={<MyResume/>}/>
+        <Route path='/projects/:id' element={<ProjectView />}/>
       </Routes>
       <TopButton/>
       <Footer/>

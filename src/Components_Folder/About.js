@@ -64,37 +64,37 @@ export default function About() {
             <div className='achieve-card'>
             <h5 className='text-primary'>Greeks For Greeks</h5> 
               <p>Completed +110 codes in Greeks For Greeks</p>
-              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-black' to={'https://auth.geeksforgeeks.org/user/kattavenkataramasatyanarayana'} target='blank'>Click Here</Link></button>
+              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-white' to={'https://auth.geeksforgeeks.org/user/kattavenkataramasatyanarayana'} target='blank'>Click Here</Link></button>
             </div>
             <div className='achieve-card'>
             <h5 className='text-primary'>Leetcode </h5>
               <p>Completed +20 codes in Leetcode</p>
-              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-black' to={'https://leetcode.com/satyanarayana8096/'} target='blank' >Click Here</Link></button>
+              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-white' to={'https://leetcode.com/satyanarayana8096/'} target='blank' >Click Here</Link></button>
             </div>
             <div className='achieve-card'>
             <h5 className='text-primary'>Codecheff  </h5>
               <p>Completed +180 codes in CodeCheff</p>
-              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-black' to={'https://www.codechef.com/users/satyanarayana8'} target='blank'>Click Here</Link></button>
+              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-white' to={'https://www.codechef.com/users/satyanarayana8'} target='blank'>Click Here</Link></button>
             </div>
             <div className='achieve-card'>
             <h5 className='text-primary'>Hackerrank </h5>
               <p>Completed SQL 3 Star badge in Hackerrank</p>
-              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-black' to={'https://www.hackerrank.com/profile/kattasatyanaray1'} target='blank'>Click Here</Link></button>
+              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-white' to={'https://www.hackerrank.com/profile/kattasatyanaray1'} target='blank'>Click Here</Link></button>
             </div>
             <div className='achieve-card'>
             <h5 className='text-primary'>SQL Badge </h5> 
               <p>Completed 3 Star Badge in Hackerrank</p>
-              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-black' to={'https://www.hackerrank.com/profile/kattasatyanaray1'} target='blank'>Click Here</Link></button>
+              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-white' to={'https://www.hackerrank.com/profile/kattasatyanaray1'} target='blank'>Click Here</Link></button>
             </div>
             <div className='achieve-card'>
             <h5 className='text-primary'>Cyber Security Badge  </h5>
               <p>Completed Cyber Security Badge by Cisco Networking Academy</p>
-              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-black' to={'https://www.credly.com/badges/abb52ae8-dc1f-40d9-80f9-120fc68d7647/public_url'} target='blank'>Click Here</Link></button>
+              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-white' to={'https://www.credly.com/badges/abb52ae8-dc1f-40d9-80f9-120fc68d7647/public_url'} target='blank'>Click Here</Link></button>
             </div>
             <div className='achieve-card'>
             <h5 className='text-primary'>AWS Academy  </h5>
               <p>Completed AWS Academy Cloud Foundations Badge by AWS Academy</p>
-              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-black' to={'https://www.credly.com/badges/e112650f-2f32-4359-a750-b2adf2f0fcdc/public_url'} target='blank'>Click Here</Link></button>
+              <button className='ps-2 pe-2 border-0 outline-0 bg-success rounded'><Link className='text-decoration-none text-white' to={'https://www.credly.com/badges/e112650f-2f32-4359-a750-b2adf2f0fcdc/public_url'} target='blank'>Click Here</Link></button>
             </div>
             
           </div>
