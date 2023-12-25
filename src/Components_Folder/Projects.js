@@ -61,7 +61,7 @@ function Projects() {
               <img src= {imgSrc} alt={title} />
               <span className='share-icon'><i className="fa-solid fa-share"></i></span>
               <div className='d-flex align-items-center justify-content-evenly flex-column gap-3 mt-4 card-text-container'>
-              <h5 className='mt-4'>{title}</h5>
+              <h4 className='mt-4'>{title}</h4>
               <div className='tech-list'>
                 {
                   tech.map((each,index)=>{
@@ -70,7 +70,7 @@ function Projects() {
                 }
               </div>
               </div>
-              <div className='btn-container d-flex align-items-center justify-content-evenly mt-2'>
+              <div className='btn-container d-flex align-items-center justify-content-between mt-3'>
               <button><Link to={live} target='blank' className='text-decoration-none'>Live <i className="fa-solid fa-arrow-up-right-from-square"></i></Link></button>
               <button><Link to={`/projects/${id}`} className='text-decoration-none'>View</Link></button>
               <button><Link to={git} target='blank' className='text-decoration-none'>GitHub <i className="fa-solid fa-arrow-up-right-from-square"></i></Link></button>
